@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import ar.com.hotelalura.factory.ConnectionFactory;
+import ar.com.hotelalura.conexion.ConnectionFactory;
 
 public class PuebaDelete {
 
@@ -14,14 +14,14 @@ public class PuebaDelete {
 		Connection con = new ConnectionFactory().recuperaConexion();
 
 		Statement statement = con.createStatement();
-		
+
 		statement.execute("select * from v_huespedes_reservas;");
-		
+
 		ResultSet resultSet = statement.getResultSet();
-		
+
 		System.out.println(statement.getUpdateCount());
 		System.out.println(resultSet);
-		
+
 	}
 
 }

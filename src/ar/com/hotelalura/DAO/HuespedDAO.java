@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ar.com.hotelalura.modelo.Huesped;
-import ar.com.hotelalura.factory.ConnectionFactory;
+import ar.com.hotelalura.conexion.ConnectionFactory;
 
 public class HuespedDAO {
 

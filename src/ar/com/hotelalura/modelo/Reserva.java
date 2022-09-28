@@ -13,6 +13,16 @@ public class Reserva {
 	private int reservaId;
 
 	
+	public int getReservaId() {
+		return reservaId;
+	}
+
+
+	public void setReservaId(int reservaId) {
+		this.reservaId = reservaId;
+	}
+
+
 	public Reserva(Integer id, Date checkin, Date checkout, String valorReserva, String formaPago) {
 		this.id = id;
 		this.checkin = checkin;

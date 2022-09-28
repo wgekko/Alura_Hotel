@@ -4,7 +4,7 @@ import java.sql.Date;
 import java.util.List;
 
 import ar.com.hotelalura.DAO.HuespedDAO;
-import ar.com.hotelalura.factory.ConnectionFactory;
+import ar.com.hotelalura.conexion.ConnectionFactory;
 import ar.com.hotelalura.modelo.Huesped;
 
 public class HuespedController {

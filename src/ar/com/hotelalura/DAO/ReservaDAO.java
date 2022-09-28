@@ -11,7 +11,7 @@ import java.util.List;
 
 import javax.swing.JOptionPane;
 
-import ar.com.hotelalura.factory.ConnectionFactory;
+import ar.com.hotelalura.conexion.ConnectionFactory;
 import ar.com.hotelalura.modelo.Reserva;
 
 public class ReservaDAO {

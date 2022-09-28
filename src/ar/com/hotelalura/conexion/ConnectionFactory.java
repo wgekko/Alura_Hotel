@@ -1,4 +1,4 @@
-package ar.com.hotelalura.factory;
+package ar.com.hotelalura.conexion;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -3,7 +3,7 @@ package ar.com.hotelalura.pruebas;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import ar.com.hotelalura.factory.ConnectionFactory;
+import ar.com.hotelalura.conexion.ConnectionFactory;
 
 public class PruebaConexion {
 
